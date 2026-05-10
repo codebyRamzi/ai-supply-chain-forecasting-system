@@ -236,17 +236,6 @@ The model predicts weekly sales using:
 
 ---
 
-# Screenshots
-
-Add your project screenshots inside the `screenshots/` folder.
-
-Recommended screenshots:
-- Streamlit dashboard
-- Forecast graph
-- FastAPI Swagger UI
-- KPI metrics section
-
----
 
 # Learning Outcomes
 
