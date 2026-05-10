@@ -1,4 +1,4 @@
-# AI Supply Chain Forecasting Copilot
+# AI Supply Chain Forecasting System
 
 An end-to-end AI-powered demand forecasting system built using Machine Learning, FastAPI, and Streamlit.
 
@@ -61,7 +61,7 @@ Sales Forecast Predictions
 # Folder Structure
 
 ```text
-AI-Supply-Chain-Copilot/
+AI-Supply-Chain-Forecasting-System/
 │
 ├── api/
 │   └── main.py
@@ -76,7 +76,6 @@ AI-Supply-Chain-Copilot/
 │   └── test.csv
 │
 ├── models/
-│   └── random_forest_model.pkl
 │
 ├── notebooks/
 │   └── eda.ipynb
@@ -141,6 +140,25 @@ source venv/bin/activate
 
 ```bash
 pip install -r requirements.txt
+```
+
+---
+
+# Model File
+
+The trained model file is not included in this repository due to file size limitations.
+
+To regenerate the model:
+
+1. Open:
+   `notebooks/eda.ipynb`
+
+2. Run all notebook cells
+
+3. The trained model will automatically be saved inside:
+
+```text
+models/random_forest_model.pkl
 ```
 
 ---
@@ -244,6 +262,6 @@ This project demonstrates:
 
 # Author
 
-Mohammed Ramzi
+Ramzi
 
 AI & Python Internship Project
